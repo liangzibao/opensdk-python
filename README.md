@@ -6,6 +6,12 @@
 rsa
 ```
 
+# 转换RSA PUBLIC KEY
+```
+openssl rsa -pubin -in pub.key -RSAPublicKey_out
+```
+
+
 ## API Demo
 <pre>
     <code>
